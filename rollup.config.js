@@ -10,6 +10,12 @@ export default {
       format: "esm",
     },
     {
+      file: "dist/cjs/index.js",
+      format: "cjs",
+      sourcemap: true,
+      exports: "named",
+    },
+    {
       file: "dist/index.min.js",
       format: "iife",
       name: "authsignal",
